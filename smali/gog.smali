@@ -83,6 +83,8 @@
 
     move-result v0
 
+    const/4 v0, 0x1
+
     if-eqz v0, :cond_0
 
     sget-object v0, Lhit;->b:Landroid/hardware/camera2/CaptureRequest$Key;

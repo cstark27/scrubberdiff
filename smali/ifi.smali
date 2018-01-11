@@ -331,8 +331,6 @@
 
     if-eqz v2, :cond_0
 
-    invoke-static {v0}, Lcom/google/android/camera/experimental2016/ExperimentalImageReaderExtensions;->discardFreeBuffers(Landroid/media/ImageReader;)V
-
     :goto_0
     monitor-exit v1
 
@@ -349,8 +347,6 @@
 
     if-eqz v2, :cond_1
 
-    invoke-static {v0}, Lcom/google/android/camera/experimental2017/ExperimentalImageReaderExtensions;->discardFreeBuffers(Landroid/media/ImageReader;)V
-
     goto :goto_0
 
     :catchall_0
@@ -363,6 +359,8 @@
     throw v0
 
     :cond_1
+    goto :goto_0
+
     :try_start_1
     new-instance v0, Ljava/lang/RuntimeException;
 

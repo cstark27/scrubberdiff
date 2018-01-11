@@ -86,7 +86,7 @@
             </intent-filter>
             <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
         </activity-alias>
-        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.apps.camera.legacy.app.activity.SecureCameraActivity" android:resizeableActivity="false" android:screenOrientation="user" android:taskAffinity="com.google.android.apps.camera.legacy.app.activity.SecureCameraActivity" android:theme="@style/Theme.Camera" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.apps.camera.legacy.app.activity.SecureCameraActivity" android:resizeableActivity="false" android:screenOrientation="user" android:showWhenLocked="true" android:taskAffinity="com.google.android.apps.camera.legacy.app.activity.SecureCameraActivity" android:theme="@style/Theme.Camera" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
             <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
             <meta-data android:name="android.media.still_image_camera_preview_service" android:value="com.google.android.apps.camera.legacy.app.prewarm.NoOpPrewarmService"/>
         </activity>

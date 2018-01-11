@@ -1,17 +1,33 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: com.google.android.GoogleCamera_5.1.018.177470874-41362666_minAPI26(arm64-v8a)(nodpi)_apkmirror.com.apk
+apkFileName: scrubber_GCam_5.1.018.apk
 compressionType: false
 doNotCompress:
 - arsc
-- META-INF/services/com.google.protobuf.GeneratedExtensionRegistryLoader
 - apk
+- assets/com.google.android.vision.face/models/classification/frontal_face_classifiers.4/is_left_eye_open-y0.12-wmd.bin
+- assets/com.google.android.vision.face/models/classification/frontal_face_classifiers.4/is_right_eye_open-y0.12-wmd.bin
+- assets/com.google.android.vision.face/models/classification/frontal_face_classifiers.4/is_smiling-y0.5-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/bottom_mouth-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/left_cheek-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/left_mouth-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/right_cheek-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-3-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/multi_pose_face_landmark_detectors.8/right_mouth-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-r0-ri30.4a-v24-tree7-2-wmd.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin
+- assets/com.google.android.vision.face/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin
 - bin
 isFrameworkApk: false
 packageInfo:
   forcedPackageId: '127'
   renameManifestPackage: null
 sdkInfo:
-  minSdkVersion: '26'
+  minSdkVersion: '25'
   targetSdkVersion: '27'
 sharedLibrary: false
 unknownFiles:

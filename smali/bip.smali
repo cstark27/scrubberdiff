@@ -159,7 +159,7 @@
 
     const-string v1, "camera.enable_pd"
 
-    invoke-direct {v0, v1, v3}, Lbku;-><init>(Ljava/lang/String;Z)V
+    invoke-direct {v0, v1, v2}, Lbku;-><init>(Ljava/lang/String;Z)V
 
     sput-object v0, Lbip;->m:Lbku;
 
@@ -167,7 +167,7 @@
 
     const-string v1, "camera.enable_pd_blur"
 
-    invoke-direct {v0, v1, v3}, Lbku;-><init>(Ljava/lang/String;Z)V
+    invoke-direct {v0, v1, v2}, Lbku;-><init>(Ljava/lang/String;Z)V
 
     sput-object v0, Lbip;->n:Lbku;
 

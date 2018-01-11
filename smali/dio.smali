@@ -357,6 +357,8 @@
 
     move-result v0
 
+    const/4 v0, 0x0
+
     if-eqz v0, :cond_0
 
     iget-object v0, p0, Ldio;->g:Lbip;
@@ -444,6 +446,8 @@
     invoke-virtual {v0}, Lgzz;->c()Z
 
     move-result v0
+
+    const/4 v0, 0x1
 
     if-eqz v0, :cond_2
 

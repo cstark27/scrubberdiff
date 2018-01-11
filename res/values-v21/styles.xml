@@ -145,7 +145,6 @@
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:navigationBarColor">@color/default_system_ui_background</item>
-        <item name="android:rotationAnimation">seamless</item>
     </style>
     <style name="Theme.CameraSettings" parent="@android:style/Theme.Material.Light">
         <item name="android:textColorPrimary">@color/settings_accent_color</item>

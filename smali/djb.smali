@@ -60,11 +60,15 @@
 
     iget-boolean v3, v3, Lihk;->b:Z
 
+    const/4 v3, 0x0
+
     if-nez v3, :cond_0
 
     iget-object v3, v0, Lgzz;->b:Lihk;
 
     iget-boolean v3, v3, Lihk;->d:Z
+
+    const/4 v3, 0x0
 
     if-nez v3, :cond_0
 
@@ -72,17 +76,23 @@
 
     iget-boolean v3, v3, Lihk;->f:Z
 
+    const/4 v3, 0x0
+
     if-nez v3, :cond_0
 
     iget-object v3, v0, Lgzz;->b:Lihk;
 
     iget-boolean v3, v3, Lihk;->g:Z
 
+    const/4 v3, 0x0
+
     if-nez v3, :cond_0
 
     invoke-virtual {v0}, Lgzz;->c()Z
 
     move-result v0
+
+    const/4 v0, 0x0
 
     if-eqz v0, :cond_1
 
