@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/micro_options" style="@style/expanded_options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionsbar="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/micro_off_container" style="@style/expanded_options_wrapper">
+        <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/micro_off" android:contentDescription="@string/micro_off_desc" optionsbar:camera_option_label="@string/micro_off_desc" optionsbar:camera_option_icon="@drawable/ic_motion_off" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/micro_auto_container" style="@style/expanded_options_wrapper">
+        <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/micro_auto" android:contentDescription="@string/micro_auto_desc" optionsbar:camera_option_label="@string/micro_auto_desc" optionsbar:camera_option_icon="@drawable/ic_motion_auto" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/micro_on_container" style="@style/expanded_options_wrapper">
+        <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/micro_on" android:contentDescription="@string/micro_on_desc" optionsbar:camera_option_label="@string/micro_on_desc" optionsbar:camera_option_icon="@drawable/ic_motion_on" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    </FrameLayout>
+</LinearLayout>

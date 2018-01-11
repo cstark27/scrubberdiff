@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/vesper_options" style="@style/expanded_options"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionsbar="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/vesper_off_container" style="@style/expanded_options_wrapper">
+        <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/vesper_off" android:contentDescription="@string/faceretouch_off_desc" optionsbar:camera_option_label="@string/faceretouch_off_desc" optionsbar:camera_option_icon="@drawable/ic_faceretouch_off" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vesper_on_container" style="@style/expanded_options_wrapper">
+        <com.google.android.apps.camera.optionsbar.view.ExpandedOption android:id="@id/vesper_on" android:contentDescription="@string/faceretouch_on_desc" optionsbar:camera_option_label="@string/faceretouch_on_desc" optionsbar:camera_option_icon="@drawable/ic_faceretouch_on" optionsbar:camera_option_selected="false" style="@style/detailed_expanded_option" />
+    </FrameLayout>
+</LinearLayout>

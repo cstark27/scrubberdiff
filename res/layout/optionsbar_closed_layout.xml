@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/optionsbar_closed" android:background="@color/optionsbar_background_closed" android:layout_width="fill_parent" android:layout_height="@dimen/closed_optionsbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/options_bar_rightside_option">
+        <View android:layout_gravity="center" android:id="@id/left_button_placeholder" style="@style/options_bar_left_placeholder" />
+    </FrameLayout>
+    <Space android:id="@id/vesper_button_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/vesper_button" android:visibility="gone" android:contentDescription="@string/faceretouch_desc" style="@style/options_bar_rightside_option_hidden" />
+    <Space android:id="@id/timer_button_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/timer_button" android:src="@drawable/ic_timer_normal_off" android:contentDescription="@string/timer_options_desc" style="@style/options_bar_rightside_option_hidden" />
+    <Space android:id="@id/hdr_button_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/hdr_button" android:src="@drawable/ic_hdr_auto_active_24dp" android:contentDescription="@string/hdr_plus_options_desc" style="@style/options_bar_rightside_option_hidden" />
+    <Space android:id="@id/micro_button_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/micro_button" android:visibility="gone" android:contentDescription="@string/micro_desc" style="@style/options_bar_rightside_option_hidden" />
+    <Space android:id="@id/fps_button_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/fps_button" android:src="@drawable/ic_fps_30" android:contentDescription="@string/fps_options_desc" style="@style/options_bar_rightside_option_hidden" />
+    <Space android:id="@id/grid_lines_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/grid_lines_button" android:src="@drawable/ic_grid_off" android:contentDescription="@string/grid_lines_options_desc" style="@style/options_bar_rightside_option_hidden" />
+    <Space android:id="@id/white_balance_button_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/white_balance_button" android:src="@drawable/ic_wb_auto" android:contentDescription="@string/white_balance_options_desc" style="@style/options_bar_rightside_option_hidden" />
+    <Space android:id="@id/flash_button_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/flash_button" android:src="@drawable/ic_flash_normal_auto" android:contentDescription="@string/flash_options_desc" style="@style/options_bar_rightside_option_hidden" />
+    <Space android:id="@id/panorama_horizontal_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/panorama_horizontal" android:visibility="gone" android:src="@drawable/quantum_ic_panorama_horizontal_white_24" android:contentDescription="@string/panorama_horizontal_desc" style="@style/options_bar_rightside_option" />
+    <Space android:id="@id/panorama_vertical_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/panorama_vertical" android:visibility="gone" android:src="@drawable/quantum_ic_panorama_vertical_white_24" android:contentDescription="@string/panorama_vertical_desc" style="@style/options_bar_rightside_option" />
+    <Space android:id="@id/panorama_wide_angle_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/panorama_wide_angle" android:visibility="gone" android:src="@drawable/quantum_ic_panorama_wide_angle_white_24" android:contentDescription="@string/panorama_wide_desc" style="@style/options_bar_rightside_option" />
+    <Space android:id="@id/panorama_fish_eye_placeholder" style="@style/closed_options_placeholder" />
+    <com.google.android.apps.camera.uiutils.SmoothRotateImageButton android:id="@id/panorama_fish_eye" android:visibility="gone" android:src="@drawable/quantum_ic_panorama_fish_eye_white_24" android:contentDescription="@string/panorama_fish_eye_desc" style="@style/options_bar_rightside_option" />
+</LinearLayout>
